@@ -5,7 +5,7 @@ package search.binary_search;
 public class BinarySearch {
     final int NOT_FOUND = -1;
 
-    // if the array has given target, return the index of target in a
+    // if the array has given target, return the index of target 
     // otherwise return NOT_FOUND
     public int binary_search(int[] a, int target) {
         int left = 0, right = a.length-1;
@@ -33,7 +33,7 @@ public class BinarySearch {
 
     // if the array has given target and it's duplicated
     // it returns very left target
-    // for instance [a1, a2, a3, t1, t2, t3, a,4,,,]
+    // for instance [a1, a2, a3, t1, t2, t3, a4,,,]
     // it returns index of t1
 
     public int lower_bound(int[] a, int target) {
@@ -59,7 +59,7 @@ public class BinarySearch {
 
     // if the array has given target and it's duplicated
     // it returns very right target
-    // for instance [a1, a2, a3, t1, t2, t3, a,4,,,]
+    // for instance [a1, a2, a3, t1, t2, t3, a4,,,]
     // it returns index of t3
     public int upper_bound(int[] a, int target) {
         int left = 0, right = a.length-1, pos = 0;
