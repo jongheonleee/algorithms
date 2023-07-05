@@ -5,7 +5,7 @@ package search.binary_search;
 public class BinarySearch {
     final int NOT_FOUND = -1;
 
-    // if the array has given target, return the index of target in a
+    // if the array has given target, return the index of target 
     // otherwise return NOT_FOUND
     public int binary_search(int[] a, int target) {
         int left = 0, right = a.length-1;
